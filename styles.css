@@ -1,0 +1,96 @@
+/* Reset + base */
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  margin: 0;
+  background: #fafafa;
+  color: #222;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 3rem;
+  background: white;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+header h1 {
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #333;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  transition: 0.2s;
+}
+
+nav a:hover {
+  color: #888;
+}
+
+/* Home layout */
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+
+.home-content {
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+  max-width: 1100px;
+  padding: 2rem;
+}
+
+/* Text side */
+.intro {
+  max-width: 500px;
+}
+
+.intro h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.intro p {
+  line-height: 1.6;
+  color: #555;
+}
+
+/* Image */
+.profile img {
+  width: 300px;
+  height: auto;
+  border-radius: 12px;
+  object-fit: cover;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+/* Quote */
+.quote {
+  margin-top: 2rem;
+  padding-left: 1rem;
+  border-left: 3px solid black;
+}
+
+.quote blockquote {
+  margin: 0;
+  font-style: italic;
+  color: #444;
+}
+img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+}
+.profile img {
+  max-width: 200px;
+}
